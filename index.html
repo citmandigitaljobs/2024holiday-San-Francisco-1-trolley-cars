@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Akatab" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    body {
+      font-family: 'Akatab';
+      font-size: 22px;
+    }
+  </style>
+  <title>San Francisco</title>
+  <!--STYLE.CSS FILE LINK HERE -->
+  <link rel="stylesheet" href="./style.css" />
+  <!-- TRY JS FILE HERE BASED ON STACK OVERFLOW https://stackoverflow.com/questions/68424003/modal-box-opens-on-codepen-but-not-on-localhost -->
+  <!-- INCLUDE defer SO DIRECT BROWSER THAT THE SCRIPT IS MEANT TO BE EXECUTED AFTER THE DOCUMENT HAS BEEN PARSED-->
+  <script src="./main.js" defer></script>
+</head>
+
+<!--MAIN.JS FILE LINK HERE -->
+<!-- <script src="./main.js"></script> -->
+
+<!--   START TOP NAVIGATION BAR FOR DESKTOP -->
+<ul class="page-navigation">
+  <li><a href="#home">Go to home page</a></li>
+  <li><a href="#state">Back to California</a></li>
+</ul>
+<!--   END TOP NAVIGATION BAR FOR DESKTOP -->
+
+<!--            PUT HAMBURGER MENU AT TOP  -->
+<div class="topnav" id="topMenu">
+  <!-- HAMBURGER MENU -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    <!-- NAVIGATION LINKS -->
+    <nav id="myLinks">
+      <a href="#home">Go to home page</a>
+      <a href="#state">Back to California</a>
+    </nav>
+  </a>
+</div>
+<!--    END HAMBURGER MENU    -->
+
+<body>
+
+  <main>
+    <section class="grid-content">
+      <div class="content">
+        <p>San Francisco</p>
+        <!-- ----------------------- -->
+
+        <!--         START CAROUSEL -->
+        <!--         <section class="carousel">
+          <div class="arrows"> -->
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/9mBur1c.jpeg" alt="Bay Bridge San Francisco">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/DVTNumw.jpeg" alt="Bay Bridge San Francisco">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/1W4sLWo.jpeg" alt="Bay Bridge San Francisco">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/STTOO7n.jpeg" alt="Waymo self-driving car">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/UDHWp4H.jpeg" alt="Waymo self-driving car">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/Kqwo62k.jpeg" alt="Waymo self-driving car">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/WBsLtaM.jpeg" alt="Diner">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/e9Bz0sn.jpeg" alt="Pier 14">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/7O6goua.jpeg" alt="Pier 14">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/OdlShiu.jpeg" alt="Pier 14">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/4qtgLek.jpeg" alt="Pier 14">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/vuqAvru.jpeg" alt="Pier 14">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/sSplG90.jpeg" alt="Pier 14">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/r77Vs2Q.jpeg" alt="Pier 14">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/kzfYnPc.jpeg" alt="Pier 14">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/C3g5If1.jpeg" alt="Bay Bridge">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/bms0VoA.jpeg" alt="Bay Bridge">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/JDAydAS.jpeg" alt="Buildings in fog">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/lmnZNIO.jpeg" alt="Buildings">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/xcYLJFq.jpeg" alt="Buildings">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/4i77xfI.jpeg" alt="Buildings">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/4kVYgKr.jpeg" alt="Buildings">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/4kVYgKr.jpeg" alt="Buildings">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/NbRAgVn.jpeg" alt="Buildings">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/2aIHr56.jpeg" alt="Buildings">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/qD8mlRJ.jpeg" alt="Buildings">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/gaS5vKo.jpeg" alt="Buildings">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/gWOjA6l.jpeg" alt="Buildings">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/9xuPSuf.jpeg" alt="Diner San Francisco">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/QBm89St.jpeg" alt="Lithuanian restaurant San Francisco">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/rTirvRl.jpeg" alt="Trolley cars">
+        </div>
+        <!-- ------------- -->
+<!--         IMGUR VIDEO HERE -->
+        <div class="carousel-image">
+          <!--        IMGUR SHARE OPTION: USE BBCode (Forums) -->
+          <div class="video">
+            <video width="100%" controls autoplay>
+              <source src="https://i.imgur.com/O7EseON.mp4" type="video/mp4">
+                     </video>
+          </div>
+        </div>
+        <!-- ------------- -->
+        <!--         IMGUR VIDEO HERE -->
+        <div class="carousel-image">
+          <!--        IMGUR SHARE OPTION: USE BBCode (Forums) -->
+          <div class="video">
+            <video width="100%" controls autoplay>
+              <source src="https://i.imgur.com/NBPuQ1r.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <!-- ------------- -->
+         <!--         IMGUR VIDEO HERE -->
+        <div class="carousel-image">
+          <!--        IMGUR SHARE OPTION: USE BBCode (Forums) -->
+          <div class="video">
+            <video width="100%" controls autoplay>
+              <source src="https://i.imgur.com/tqyrS2D.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/aDkbFgL.jpeg" alt="Child playing with Piotr">
+        </div>
+      </div>
+      <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/SfXufYx.jpeg" alt="Child playing with Piotr">
+        </div>
+      </div>
+      <!-- ------------- -->
+     
+        
+      
+      <!--                     to have space between carousel and arrows -->
+      <br>
+      <!-- Next and previous buttons -->
+      <div class="transition-arrow">
+        <div class="arrows">
+          <a class="prev-image" onclick="plusSlideImage(-1)">&#10094;</a>
+          <br>
+          <a class="next-image" onclick="plusSlideImage(1)">&#10095;</a>
+        </div>
+      </div>
+    </section>
+
+    <!--         END CAROUSEL -->
+
+    <!--       <div class="carousel-video">
+          <blockquote class="imgur-embed-pub" lang="en" data-id="O7EseON"><a href="https://imgur.com/O7EseON"></a></blockquote>
+          <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+          </div>
+      </div>
+ -->
+  </main>
+</body>
+
+</html>
