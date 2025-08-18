@@ -166,9 +166,9 @@
     grid-template-columns: 1fr;
     justify-content: center;
       width: 380px;
-    height: 840px;
+    height: 650px;
 /*     padding: 5px; */
-/*     border: 10px solid yellow;     */
+    border: 10px solid yellow;    
   }
 
   .content {
@@ -177,7 +177,7 @@
     align-content: space-between;
     /*     justify-content: center; */
       width: 380px;
-    height: 800px;
+    height: 650px;
     text-align: center;
     justify-content: flex-start;
         border: 5px solid pink;
