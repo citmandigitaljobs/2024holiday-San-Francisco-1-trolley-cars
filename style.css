@@ -83,7 +83,7 @@
     justify-content: center;
     height: 430px;
     padding: 5px;
-/*     border: 10px solid green; */
+        border: 10px solid green;
   }
 
   .content {
@@ -93,14 +93,14 @@
     width: 100%;
     max-height: 390px;
     text-align: center;
-justify-content: flex-start;
-/*     border: 1px solid blue; */
+    justify-content: flex-start;
+    /*     border: 1px solid blue; */
   }
 
   .carousel-image {
     display: flex;
     max-height: 350px;
-/*     border: 2px solid yellow; */
+    /*     border: 2px solid yellow; */
   }
 
   /* START CAROUSEL */
@@ -109,7 +109,7 @@ justify-content: flex-start;
     flex-direction: row;
     justify-content: space-around;
     background-color: white;
-/*     border: 4px solid orange; */
+    /*     border: 4px solid orange; */
   }
 
   .image {
@@ -120,10 +120,17 @@ justify-content: flex-start;
   }
 
   .video {
-    max-width: 100%;
+/*     max-width: 100%;
     border-radius: 8px;
-    object-fit: contain;
-/*     border: 5px solid red; */    
+    object-fit: contain; */
+    /*     border: 5px solid red; */
+  }
+  
+  .video-portrait {
+/*     width: 80px;
+    border-radius: 8px;
+    object-fit: contain; */
+    /*     border: 5px solid red; */
   }
   /*   --------------- */
 
@@ -157,33 +164,59 @@ justify-content: flex-start;
   .grid-content {
     display: grid;
     grid-template-columns: 1fr;
-   justify-content: center;
-    height: auto;
-    padding: 5px;   
-    border: 10px solid yellow;
-  }
-  
-    .content {
-    display: grid;
-    /*     max-height: 280px; */
-    column-gap: 10px;
     justify-content: center;
-    text-align: center;
-    align-items: center;
-            border: 10px solid green;
-      
-       display: flex;
+    height: 370px;
+    padding: 5px;
+    border: 10px solid yellow;    
+  }
+
+  .content {
+    display: flex;
     flex-direction: column;
     align-content: space-between;
+    /*     justify-content: center; */
     width: 100%;
-    max-height: 390px;
+    height: 350px;
     text-align: center;
-justify-content: flex-start;
-      
-      
+    justify-content: flex-start;
+        border: 10px solid green;
   }
 
   /* START CAROUSEL */
+  .image {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    /*     object-fit: contain;
+    justify-content: center; */
+    /*           border: 5px solid pink; */
+  }
+
+  .video-landscape {
+/*     width: auto; */
+/*     height: auto; */
+    
+    border-radius: 8px;
+/*     object-fit: contain; */
+/*     object-fit: auto; */
+/*     object-fit: fill;     */
+/*     object-fit: scale-down; */
+/*     object-fit: cover; */
+/*     justify-content: center; */
+/*     border: 5px solid red; */
+  }
+  
+   .video-portrait {
+    width: 160px;
+    border-radius: 8px;
+/*     object-fit: contain;
+     object-fit: auto; */
+     padding-left: 85px;
+     padding-right: 85px;
+/*          justify-content: space-evenly; */
+        border: 5px solid red;
+  }
+
   .arrows {
     display: flex;
     flex-direction: row;
@@ -191,21 +224,7 @@ justify-content: flex-start;
     background-color: white;
     /*     border: 1px solid blue; */
   }
-
-  .image {
-    max-width: 100%;
-    height: 500px;
-    border-radius: 8px;
-    object-fit: contain;
-    /*       border: 5px solid pink; */
-  }
-
-  .carousel-image {
-    /*     height: 500px; */
-    max-height: auto;
-    object-fit: contain;
-    border: 5px solid purple;
-  }
+  /*   --------------- */
 
   /*     .imgur-embed-pub {
     max-width: 100%;
