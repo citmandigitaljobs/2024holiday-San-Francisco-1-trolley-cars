@@ -367,7 +367,7 @@ a:link {
     padding: 10px;
     row-gap: 5px;
     column-gap: 10px;
-    /*     border: 10px solid GreenYellow; */
+/*         border: 10px solid GreenYellow; */
   }
 
   .content {
@@ -377,7 +377,7 @@ a:link {
     justify-content: center;
     align-items: center;
     text-align: center;
-    /*     border: 10px solid green; */
+/*         border: 10px solid green; */
   }
 
   /* START CAROUSEL */
@@ -430,7 +430,7 @@ a:link {
     padding: 10px;
     row-gap: 5px;
     column-gap: 10px;
-    /*     border: 10px solid BlueViolet; */
+/*         border: 10px solid BlueViolet; */
   }
 
   .content {
@@ -460,33 +460,21 @@ a:link {
     /*       border: 5px solid pink; */
   }
 
-  .video-landscape {
-    /*     width: auto; */
-    /*     height: auto; */
+ /*   .video-landscape {
     max-width: 80%;
     height: 390px;
     border-radius: 8px;
     object-fit: contain;
-    /*     object-fit: contain; */
-    /*     object-fit: auto; */
-    /*     object-fit: fill;     */
-    /*     object-fit: scale-down; */
-    /*     object-fit: cover; */
     justify-content: center;
-    /*     border: 5px solid red; */
-  }
+  } */
 
-  .video-portrait {
-    max-width: 55%;
-    height: 490px;
+/*   .video-portrait {
+    max-width: 40%;
+    height: 450px;
     border-radius: 8px;
     object-fit: contain;
-    /*      object-fit: auto; */
-    /* justify-content: center; */
     align-items: center;
-    /*          justify-content: space-evenly; */
-    /*     border: 5px solid red; */
-  }
+  } */
 
   /* Next & previous buttons */
   .prev-image,
@@ -521,7 +509,7 @@ a:link {
     padding: 10px;
     row-gap: 5px;
     column-gap: 10px;
-    /*     border: 10px solid brown; */
+/*         border: 10px solid brown; */
   }
 
   .content {
@@ -551,35 +539,23 @@ a:link {
     /*       border: 5px solid pink; */
   }
 
-  .video-landscape {
-    /*     width: auto; */
-    /*     height: auto; */
+  /*   .video-landscape {
     max-width: 80%;
     height: 390px;
     border-radius: 8px;
     object-fit: contain;
-
-    /*     object-fit: contain; */
-    /*     object-fit: auto; */
-    /*     object-fit: fill;     */
-    /*     object-fit: scale-down; */
-    /*     object-fit: cover; */
     justify-content: center;
-    /*     border: 5px solid red; */
-  }
+  } */
 
-  .video-portrait {
+/*   .video-portrait {
     max-width: 40%;
     height: 450px;
     border-radius: 8px;
     object-fit: contain;
-    /*      object-fit: auto; */
-    /* justify-content: center; */
     align-items: center;
-    /*          justify-content: space-evenly; */
-    /*     border: 5px solid red; */
-  }
-
+  } */
+  
+  
   /* Next & previous buttons */
   .prev-image,
   .next-image {
@@ -613,7 +589,7 @@ a:link {
     padding: 10px;
     row-gap: 5px;
     column-gap: 10px;
-    /*     border: 10px solid orange; */
+/*         border: 10px solid orange; */
   }
 
   .content {
@@ -643,33 +619,21 @@ a:link {
     /*     border: 5px solid pink; */
   }
 
-  .video-landscape {
-    /*     width: auto; */
-    /*     height: auto; */
+/*   .video-landscape {
     max-width: 80%;
     height: 390px;
     border-radius: 8px;
     object-fit: contain;
-    /*     object-fit: contain; */
-    /*     object-fit: auto; */
-    /*     object-fit: fill;     */
-    /*     object-fit: scale-down; */
-    /*     object-fit: cover; */
     justify-content: center;
-    /*     border: 5px solid red; */
-  }
+  } */
 
-  .video-portrait {
+/*   .video-portrait {
     max-width: 40%;
     height: 450px;
     border-radius: 8px;
     object-fit: contain;
-    /*      object-fit: auto; */
-    /* justify-content: center; */
     align-items: center;
-    /*          justify-content: space-evenly; */
-    /*     border: 5px solid red; */
-  }
+  } */
 
   /* Next & previous buttons */
   .prev-image,
